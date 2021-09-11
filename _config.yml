@@ -248,6 +248,12 @@ post_meta:
   categories: true
 
 # Post wordcount display settings
+post_wordcount:
+  item_text: true
+  wordcount: true #单篇文章字数
+  min2read: true #单篇阅读时长
+  totalcount: true #站点总字数
+  separated_meta: true
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
   separated_meta: true
@@ -319,7 +325,7 @@ tagcloud:
   amount: 200 # Amount of tags, change it if you have more than 200 tags
 
 # Google Calendar
-# Share your recent schedule to others via calendar page.
+#    your recent schedule to others via calendar page.
 calendar:
   calendar_id: <required> # Your Google account E-Mail
   api_key: <required>
@@ -357,9 +363,9 @@ codeblock:
   highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
-    show_result: false
+    show_result: true
     # Available values: default | flat | mac
     style:
 
